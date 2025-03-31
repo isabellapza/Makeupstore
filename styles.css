@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeded;
+}
+header img {
+    width: 450px;  /* Tamaño de la imagen */
+    height: auto;  /* Mantiene  proporción imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #990909;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.Products h2{
+    color: rgb(174, 35, 10);
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilos para los productos */
+.Products {
+    display: flex;           /* para organizar los productos */
+    flex-direction: column;  /*  columna vertical */
+    align-items: center;     /* Centra los productos horizontalmente */
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.Product {
+    
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 15px;
+}
+/* Ajuste  imágenes  productos */
+.Product img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+/* Estilo  títulos de los productos */
+.Product h3 {
+    color: #252525;
+}
+
+/* Estilo para las descripciones de los productos */
+.Product p {
+    color: #666;
+}
+
+/* Estilo x botones de agregar al carrito */
+.add-btn {
+    background-color: #b71818;
+    color: rgb(242, 217, 217);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #f11010;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #b71818;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+
+
